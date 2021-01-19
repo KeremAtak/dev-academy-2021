@@ -1,0 +1,178 @@
+2021-01-20 00:57:11,463 [main] INFO  dev-academy-2021.env - 
+-=[dev-academy-2021 started successfully using the development profile]=- 
+2021-01-20 00:57:11,824 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-01-20 00:57:11,827 [main] INFO  io.undertow - starting server: Undertow - 2.1.3.Final 
+2021-01-20 00:57:11,834 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-01-20 00:57:11,894 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-01-20 00:57:11,909 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2021-01-20 00:57:11,940 [main] INFO  luminus.http-server - server started on port 3000 
+2021-01-20 00:57:11,940 [main] INFO  dev-academy-2021.nrepl - starting nREPL server on port 7000 
+2021-01-20 00:57:11,959 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration: 
+2021-01-20 00:57:11,961 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+2021-01-20 00:57:11,961 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+2021-01-20 00:57:11,961 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+2021-01-20 00:57:11,961 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+2021-01-20 00:57:11,962 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+2021-01-20 00:57:11,962 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+2021-01-20 00:57:11,962 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+2021-01-20 00:57:11,962 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+2021-01-20 00:57:11,962 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName.................none 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+2021-01-20 00:57:11,963 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost/postgres?user=postgres&password=<masked> 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1" 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+2021-01-20 00:57:11,964 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+2021-01-20 00:57:11,965 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+2021-01-20 00:57:11,965 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+2021-01-20 00:57:11,965 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+2021-01-20 00:57:11,965 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................none 
+2021-01-20 00:57:11,965 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+2021-01-20 00:57:11,966 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-01-20 00:57:11,975 [main] DEBUG c.z.hikari.util.DriverDataSource - Loaded driver with class name org.postgresql.Driver for jdbcUrl=jdbc:postgresql://localhost/postgres?user=postgres&password=<masked> 
+2021-01-20 00:57:12,024 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54fc186f 
+2021-01-20 00:57:12,025 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-01-20 00:57:12,026 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/init-app started 
+2021-01-20 00:57:12,026 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/app-routes started 
+2021-01-20 00:57:12,026 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.core/http-server started 
+2021-01-20 00:57:12,026 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.core/repl-server started 
+2021-01-20 00:57:12,026 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.db.core/*db* started 
+2021-01-20 00:57:12,125 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+2021-01-20 00:57:12,129 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@731b4256 
+2021-01-20 00:57:12,132 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ddcb245 
+2021-01-20 00:57:12,136 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79e32926 
+2021-01-20 00:57:12,139 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ce1b87e 
+2021-01-20 00:57:12,143 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15415446 
+2021-01-20 00:57:12,147 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d178231 
+2021-01-20 00:57:12,151 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d5d30ac 
+2021-01-20 00:57:12,155 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cce4731 
+2021-01-20 00:57:12,158 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4332cb8a 
+2021-01-20 00:57:12,158 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 00:57:42,126 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 00:57:42,127 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2021-01-20 00:58:12,128 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 00:58:12,128 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level. 
+2021-01-20 00:58:25,520 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-01-20 00:58:25,521 [Thread-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 00:58:25,524 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@54fc186f: (connection evicted) 
+2021-01-20 00:58:25,524 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@731b4256: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7ddcb245: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@79e32926: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3ce1b87e: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@15415446: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@d178231: (connection evicted) 
+2021-01-20 00:58:25,525 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6d5d30ac: (connection evicted) 
+2021-01-20 00:58:25,526 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5cce4731: (connection evicted) 
+2021-01-20 00:58:25,526 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4332cb8a: (connection evicted) 
+2021-01-20 00:58:25,526 [Thread-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0) 
+2021-01-20 00:58:25,526 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-01-20 00:58:25,527 [Thread-3] INFO  dev-academy-2021.nrepl - nREPL server stopped 
+2021-01-20 00:58:25,527 [Thread-3] INFO  io.undertow - stopping server: Undertow - 2.1.3.Final 
+2021-01-20 00:58:25,529 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2021-01-20 00:58:25,529 [Thread-3] INFO  dev-academy-2021.env - 
+-=[dev-academy-2021 has shut down successfully]=- 
+2021-01-20 00:58:25,529 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.db.core/*db* stopped 
+2021-01-20 00:58:25,529 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.core/repl-server stopped 
+2021-01-20 00:58:25,529 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.core/http-server stopped 
+2021-01-20 00:58:25,529 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/init-app stopped 
+2021-01-20 01:00:34,800 [main] INFO  dev-academy-2021.env - 
+-=[dev-academy-2021 started successfully using the development profile]=- 
+2021-01-20 01:00:35,134 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-01-20 01:00:35,138 [main] INFO  io.undertow - starting server: Undertow - 2.1.3.Final 
+2021-01-20 01:00:35,146 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-01-20 01:00:35,223 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-01-20 01:00:35,247 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2021-01-20 01:00:35,270 [main] INFO  luminus.http-server - server started on port 3000 
+2021-01-20 01:00:35,271 [main] INFO  dev-academy-2021.nrepl - starting nREPL server on port 7000 
+2021-01-20 01:00:35,287 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration: 
+2021-01-20 01:00:35,288 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none 
+2021-01-20 01:00:35,289 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none 
+2021-01-20 01:00:35,290 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>} 
+2021-01-20 01:00:35,290 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName.................none 
+2021-01-20 01:00:35,290 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{} 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost/postgres?user=postgres&password=<masked> 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10 
+2021-01-20 01:00:35,291 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked> 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1" 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................none 
+2021-01-20 01:00:35,292 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000 
+2021-01-20 01:00:35,293 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+2021-01-20 01:00:35,303 [main] DEBUG c.z.hikari.util.DriverDataSource - Loaded driver with class name org.postgresql.Driver for jdbcUrl=jdbc:postgresql://localhost/postgres?user=postgres&password=<masked> 
+2021-01-20 01:00:35,363 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e6a6742 
+2021-01-20 01:00:35,364 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+2021-01-20 01:00:35,365 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/init-app started 
+2021-01-20 01:00:35,365 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/app-routes started 
+2021-01-20 01:00:35,365 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.core/http-server started 
+2021-01-20 01:00:35,365 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.core/repl-server started 
+2021-01-20 01:00:35,365 [main] INFO  dev-academy-2021.core - #'dev-academy-2021.db.core/*db* started 
+2021-01-20 01:00:35,465 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0) 
+2021-01-20 01:00:35,468 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f7e6255 
+2021-01-20 01:00:35,471 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b997ca 
+2021-01-20 01:00:35,473 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55860925 
+2021-01-20 01:00:35,477 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10849df1 
+2021-01-20 01:00:35,480 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c44297e 
+2021-01-20 01:00:35,484 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@215eeefb 
+2021-01-20 01:00:35,487 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@447404d4 
+2021-01-20 01:00:35,491 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70ab62be 
+2021-01-20 01:00:35,494 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6db9ba0c 
+2021-01-20 01:00:35,494 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 01:00:48,399 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2021-01-20 01:00:48,400 [Thread-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0) 
+2021-01-20 01:00:48,403 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2e6a6742: (connection evicted) 
+2021-01-20 01:00:48,404 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5f7e6255: (connection evicted) 
+2021-01-20 01:00:48,404 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@51b997ca: (connection evicted) 
+2021-01-20 01:00:48,404 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@55860925: (connection evicted) 
+2021-01-20 01:00:48,404 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@10849df1: (connection evicted) 
+2021-01-20 01:00:48,404 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3c44297e: (connection evicted) 
+2021-01-20 01:00:48,405 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@215eeefb: (connection evicted) 
+2021-01-20 01:00:48,405 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@447404d4: (connection evicted) 
+2021-01-20 01:00:48,405 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@70ab62be: (connection evicted) 
+2021-01-20 01:00:48,405 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6db9ba0c: (connection evicted) 
+2021-01-20 01:00:48,405 [Thread-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0) 
+2021-01-20 01:00:48,405 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2021-01-20 01:00:48,406 [Thread-3] INFO  dev-academy-2021.nrepl - nREPL server stopped 
+2021-01-20 01:00:48,407 [Thread-3] INFO  io.undertow - stopping server: Undertow - 2.1.3.Final 
+2021-01-20 01:00:48,411 [Thread-3] INFO  luminus.http-server - HTTP server stopped 
+2021-01-20 01:00:48,411 [Thread-3] INFO  dev-academy-2021.env - 
+-=[dev-academy-2021 has shut down successfully]=- 
+2021-01-20 01:00:48,412 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.db.core/*db* stopped 
+2021-01-20 01:00:48,412 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.core/repl-server stopped 
+2021-01-20 01:00:48,412 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.core/http-server stopped 
+2021-01-20 01:00:48,412 [Thread-3] INFO  dev-academy-2021.core - #'dev-academy-2021.handler/init-app stopped 
