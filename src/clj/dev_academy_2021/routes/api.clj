@@ -48,4 +48,5 @@
              :config {:validator-url nil}})}]]
    (file-routes)
    (health-routes)
-   (math-routes)])
+   (math-routes)
+   (name-routes)])
