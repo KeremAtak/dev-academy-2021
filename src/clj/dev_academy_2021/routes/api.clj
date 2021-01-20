@@ -35,7 +35,7 @@
 
    ;; swagger documentation
    ["" {:no-doc true
-        :swagger {:info {:title "my-api"
+        :swagger {:info {:title "Name Application"
                          :description "https://cljdoc.org/d/metosin/reitit"}}}
 
     ["/swagger.json"
