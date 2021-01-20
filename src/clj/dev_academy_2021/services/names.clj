@@ -24,3 +24,8 @@
   "Returns the name list sorted by popularity."
   []
   (sort-by :amount > names-edn-value))
+
+(defn get-total-name-count
+  "Returns the total count of all names."
+  []
+  (reduce + (map :amount names-edn-value)))
