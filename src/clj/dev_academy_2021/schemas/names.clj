@@ -15,4 +15,6 @@
 
 (def single-name-count {:count ::single-name-count})
 
+(def single-name-count-params (s/keys :req-un [::name]))
+
 (def total-name-count {:count ::total-name-count})

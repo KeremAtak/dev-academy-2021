@@ -32,8 +32,8 @@
 
 (defn get-count-by-name
   "Returns the count of a single name."
-  []
-  (if-let [matching-name (name->matching-name "Ville")]
+  [name]
+  (if-let [matching-name (name->matching-name name)]
     (:amount matching-name)
     0))
 

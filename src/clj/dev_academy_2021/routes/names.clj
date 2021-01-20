@@ -15,10 +15,11 @@
                        :body {:names (service/get-names-by-alphabet)}})}}]
    ["/count-by-name"
     {:get {:summary "gets the count of a specific name"
+           :parameters {:query schema/single-name-count-params}
            :responses {200 {:body schema/single-name-count}}
-           :handler (fn [_]
+           :handler (fn [{{{:keys [name]} :query} :parameters}]
                       {:status 200
-                       :body {:count (service/get-count-by-name)}})}}]
+                       :body {:count (service/get-count-by-name name)}})}}]
    ["/popularity"
     {:get {:summary "get names sorted by popularity"
            :responses {200 {:body schema/names-by-popularity}}
