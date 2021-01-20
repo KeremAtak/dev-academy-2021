@@ -6,9 +6,9 @@
    ;; swagger documentation
   ["/names"
    {:swagger {:tags ["names"]}}
-   ["/plus"
+   ["/popularity"
     {:get {:summary "plus with spec query parameters"
            :responses {200 {:body any?}}
            :handler (fn [_]
                       {:status 200
-                       :body {:total (get-names-by-popularity)}})}}]])
+                       :body {:names (get-names-by-popularity)}})}}]])
