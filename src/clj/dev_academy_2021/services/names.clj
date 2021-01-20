@@ -7,11 +7,20 @@
       (resource)
       (slurp)))
 
-(def names-edn
-  (let [names-json get-names-json]
-    (m/decode "application/json" names-json)))
+(defn names-json->names-edn [names-json]
+  (m/decode "application/json" names-json))
+
+(def names-edn-value
+  (let [names-json get-names-json
+        names-edn (names-json->names-edn names-json)]
+    (:names names-edn)))
+
+(defn get-names-by-alphabet
+  "Returns the name list sorted alphabetically."
+  []
+  (sort-by :name compare names-edn-value))
 
 (defn get-names-by-popularity
+  "Returns the name list sorted by popularity."
   []
-  (let [names (:names names-edn)]
-    (sort-by :amount > names)))
+  (sort-by :amount > names-edn-value))

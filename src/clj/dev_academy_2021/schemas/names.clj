@@ -7,4 +7,6 @@
 (s/def ::person
   (s/keys :req-un [::amount ::name]))
 
+(def names-by-alphabet {:names (s/coll-of ::person)})
+
 (def names-by-popularity {:names (s/coll-of ::person)})

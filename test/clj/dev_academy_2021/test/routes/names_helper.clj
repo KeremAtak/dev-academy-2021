@@ -1,5 +1,28 @@
 (ns dev-academy-2021.test.routes.names-helper)
 
+(def names-sorted-by-alphabet
+  {:names
+   [{:amount 6, :name "Anna"}
+    {:amount 22, :name "Antti"}
+    {:amount 4, :name "Henna"}
+    {:amount 12, :name "Janne"}
+    {:amount 5, :name "Kati"}
+    {:amount 4, :name "Liisa"}
+    {:amount 12, :name "Mika"}
+    {:amount 19, :name "Mikko"}
+    {:amount 5, :name "Minna"}
+    {:amount 4, :name "Paula"}
+    {:amount 11, :name "Petri"}
+    {:amount 15, :name "Sami"}
+    {:amount 5, :name "Sanna"}
+    {:amount 5, :name "Satu"}
+    {:amount 4, :name "Suvi"}
+    {:amount 15, :name "Tero"}
+    {:amount 5, :name "Tiina"}
+    {:amount 18, :name "Timo"}
+    {:amount 16, :name "Tuomas"}
+    {:amount 24, :name "Ville"}]})
+
 (def names-sorted-by-popularity
   {:names
    [{:amount 24, :name "Ville"}
