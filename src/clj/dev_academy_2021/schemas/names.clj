@@ -3,6 +3,7 @@
 
 (s/def ::amount int?)
 (s/def ::name string?)
+(s/def ::single-name-count int?)
 (s/def ::total-name-count int?)
 
 (s/def ::name-count
@@ -11,5 +12,7 @@
 (def names-by-alphabet {:names (s/coll-of ::name-count)})
 
 (def names-by-popularity {:names (s/coll-of ::name-count)})
+
+(def single-name-count {:count ::single-name-count})
 
 (def total-name-count {:count ::total-name-count})

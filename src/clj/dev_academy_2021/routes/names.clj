@@ -13,6 +13,12 @@
            :handler (fn [_]
                       {:status 200
                        :body {:names (service/get-names-by-alphabet)}})}}]
+   ["/count-by-name"
+    {:get {:summary "gets the count of a specific name"
+           :responses {200 {:body schema/single-name-count}}
+           :handler (fn [_]
+                      {:status 200
+                       :body {:count (service/get-count-by-name)}})}}]
    ["/popularity"
     {:get {:summary "get names sorted by popularity"
            :responses {200 {:body schema/names-by-popularity}}

@@ -7,18 +7,30 @@
       (resource)
       (slurp)))
 
-(defn names-json->names-edn [names-json]
-  (m/decode "application/json" names-json))
+(def names-json->names-edn
+  (m/decode "application/json" get-names-json))
 
 (def names-edn-value
-  (let [names-json get-names-json
-        names-edn (names-json->names-edn names-json)]
-    (:names names-edn)))
+  (:names names-json->names-edn))
+
+(defn name-matches?
+  "Returns the name-value pair if the name matches."
+  [{:keys [name name-edn-value]}]
+  (when (= (get name-edn-value :name) name)
+    name-edn-value))
 
 (defn get-names-by-alphabet
   "Returns the name list sorted alphabetically."
   []
   (sort-by :name compare names-edn-value))
+
+(defn get-count-by-name
+  "Returns the count of a single name."
+  []
+  (if-let [matching-name (some #(name-matches? {:name "Jarno"
+                                                :name-edn-value %}) names-edn-value)]
+    (:amount matching-name)
+    0))
 
 (defn get-names-by-popularity
   "Returns the name list sorted by popularity."
