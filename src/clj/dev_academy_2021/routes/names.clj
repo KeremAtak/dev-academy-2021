@@ -18,4 +18,10 @@
            :responses {200 {:body schema/names-by-popularity}}
            :handler (fn [_]
                       {:status 200
-                       :body {:names (service/get-names-by-popularity)}})}}]])
+                       :body {:names (service/get-names-by-popularity)}})}}]
+   ["/total-count"
+    {:get {:summary "get the total count of all names"
+           :responses {200 {:body schema/total-name-count}}
+           :handler (fn [_]
+                      {:status 200
+                       :body {:count (service/get-total-name-count)}})}}]])

@@ -13,4 +13,8 @@
   (testing "/api/names/popularity"
     (let [response ((app) (-> (request :get "/api/names/popularity")))]
       (is (= 200 (:status response)))
-      (is (= helper/names-sorted-by-popularity (m/decode-response-body response))))))
+      (is (= helper/names-sorted-by-popularity (m/decode-response-body response)))))
+  (testing "/api/names/total-count"
+    (let [response ((app) (-> (request :get "/api/names/total-count")))]
+      (is (= 200 (:status response)))
+      (is (= helper/names-total-count (m/decode-response-body response))))))
