@@ -11,7 +11,6 @@
                  [cprop "0.1.17"]
                  [expound "0.8.5"]
                  [funcool/struct "1.4.0"]
-                 [luminus-migrations "0.6.7"]
                  [luminus-transit "0.1.2"]
                  [luminus-undertow "0.1.7"]
                  [luminus/ring-ttl-session "0.3.3"]
