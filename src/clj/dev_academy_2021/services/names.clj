@@ -14,5 +14,4 @@
 (defn get-names-by-popularity
   []
   (let [names (:names names-edn)]
-    #_(clojure.pprint/pprint (sort-by :amount > names))
     (sort-by :amount > names)))
