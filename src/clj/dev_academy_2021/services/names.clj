@@ -13,11 +13,17 @@
 (def names-edn-value
   (:names names-json->names-edn))
 
-(defn name-matches?
+(defn- name-matches?
   "Returns the name-value pair if the name matches."
   [{:keys [name name-edn-value]}]
   (when (= (get name-edn-value :name) name)
     name-edn-value))
+
+(defn- name->matching-name
+  "Returns the existing name if it exists"
+  [name]
+  (some #(name-matches? {:name name
+                         :name-edn-value %}) names-edn-value))
 
 (defn get-names-by-alphabet
   "Returns the name list sorted alphabetically."
@@ -27,8 +33,7 @@
 (defn get-count-by-name
   "Returns the count of a single name."
   []
-  (if-let [matching-name (some #(name-matches? {:name "Jarno"
-                                                :name-edn-value %}) names-edn-value)]
+  (if-let [matching-name (name->matching-name "Ville")]
     (:amount matching-name)
     0))
 
