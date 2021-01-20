@@ -5,7 +5,6 @@
               [clojure.tools.cli :refer [parse-opts]]
               [clojure.tools.logging :as log]
               [luminus.http-server :as http]
-              [luminus-migrations.core :as migrations]
               [mount.core :as mount]))
 
 ;; log uncaught exceptions in threads
@@ -55,18 +54,4 @@
 
 (defn -main [& args]
   (mount/start #'dev-academy-2021.config/env)
-  (cond
-    (nil? (:database-url env))
-    (do
-      (log/error "Database configuration not found, :database-url environment variable must be set before running")
-      (System/exit 1))
-    (some #{"init"} args)
-    (do
-      (migrations/init (select-keys env [:database-url :init-script]))
-      (System/exit 0))
-    (migrations/migration? args)
-    (do
-      (migrations/migrate args (select-keys env [:database-url]))
-      (System/exit 0))
-    :else
-    (start-app args)))
+  (start-app args))
