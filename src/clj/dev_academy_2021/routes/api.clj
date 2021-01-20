@@ -4,6 +4,7 @@
               [dev-academy-2021.routes.files :refer [file-routes]]
               [dev-academy-2021.routes.health :refer [health-routes]]
               [dev-academy-2021.routes.math :refer [math-routes]]
+              [dev-academy-2021.routes.names :refer [name-routes]]
               [reitit.coercion.spec :as spec-coercion]
               [reitit.ring.coercion :as coercion]
               [reitit.ring.middleware.multipart :as multipart]
