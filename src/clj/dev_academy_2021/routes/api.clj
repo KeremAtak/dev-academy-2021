@@ -1,9 +1,7 @@
 (ns dev-academy-2021.routes.api
     (:require [dev-academy-2021.middleware.exception :as exception]
               [dev-academy-2021.middleware.formats :as formats]
-              [dev-academy-2021.routes.files :refer [file-routes]]
               [dev-academy-2021.routes.health :refer [health-routes]]
-              [dev-academy-2021.routes.math :refer [math-routes]]
               [dev-academy-2021.routes.names :refer [name-routes]]
               [reitit.coercion.spec :as spec-coercion]
               [reitit.ring.coercion :as coercion]
@@ -47,7 +45,5 @@
      {:get (swagger-ui/create-swagger-ui-handler
             {:url "/api/swagger.json"
              :config {:validator-url nil}})}]]
-   (file-routes)
    (health-routes)
-   (math-routes)
    (name-routes)])

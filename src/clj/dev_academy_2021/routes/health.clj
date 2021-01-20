@@ -1,5 +1,5 @@
 (ns dev-academy-2021.routes.health
-    (:require [ring.util.http-response :refer :all]))
+    (:require [ring.util.http-response :refer [ok]]))
 
 (defn health-routes []
   ["/ping"
