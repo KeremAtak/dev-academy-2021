@@ -8,7 +8,7 @@
   ["/names"
    {:swagger {:tags ["names"]}}
    ["/popularity"
-    {:get {:summary "plus with spec query parameters"
+    {:get {:summary "get names sorted by popularity"
            :responses {200 {:body names-by-popularity}}
            :handler (fn [_]
                       {:status 200
