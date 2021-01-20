@@ -45,6 +45,3 @@
     {:amount 4, :name "Liisa"}
     {:amount 4, :name "Paula"}
     {:amount 4, :name "Suvi"}]})
-
-(def names-total-count
-  {:count 211})
