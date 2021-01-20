@@ -1,10 +1,8 @@
 (ns user
   "Userspace functions you can run by default in your local REPL."
-  (:require [dev-academy-2021.config :refer [env]]
-            [dev-academy-2021.core :refer [start-app]]
+  (:require [dev-academy-2021.core :refer [start-app]]
             [clojure.pprint]
             [clojure.spec.alpha :as s]
-            [conman.core :as conman]
             [expound.alpha :as expound]
             [mount.core :as mount]))
 

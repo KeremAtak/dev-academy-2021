@@ -8,7 +8,6 @@
                  [clojure.java-time "0.3.2"]
                  [com.fasterxml.jackson.core/jackson-core "2.11.2"]
                  [com.fasterxml.jackson.core/jackson-databind "2.11.2"]
-                 [conman "0.9.0"]
                  [cprop "0.1.17"]
                  [expound "0.8.5"]
                  [funcool/struct "1.4.0"]
