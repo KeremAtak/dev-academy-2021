@@ -1,6 +1,6 @@
 # dev-academy-2021
 
-![lisp_cycles.png](resources/public/img.png)
+![lisp_cycles](./resources/public/img/lisp_cycles.png)
 
 [https://xkcd.com/297/](https://xkcd.com/297/)
 
@@ -18,7 +18,7 @@ Ensure that port 3000 is open. Start the project with `lein run`, dependencies a
 
 You can try out each end point by opening the block, clicking "try it out", and then "execute". `/api/names/count-by-name` requires you to insert the parameter.
 
-On your terminal you can run the tests with  `lein test-refresh`, or with `lein test` if you want to run them just once.
+On your terminal you can run the tests with `lein test-refresh`, or with `lein test` if you want to run them just once.
 
 ## Technologies used
 
@@ -26,7 +26,7 @@ On your terminal you can run the tests with  `lein test-refresh`, or with `lein 
 
 **Reitit** is a great choice for routing needs. It has clear syntax and plenty of options. For example I implemented schemas with clojure.spec, validating the requests and responses. Not to mention that Reitit [is very fast.](https://github.com/metosin/reitit/blob/master/doc/performance.md)
 
-For web API development **Swagger-ui** is just a pleasure to work with. Its UI is clear, you can smartly categorize and document your end points, and it shows everything that you need to know about your end points.
+For web API UI needs **Swagger-ui** is just a pleasure to work with. Its UI is clear, you can smartly categorize and document your end points, and it shows everything that you need to know about your end points.
 
 With a simple **CircleCI** setup development becomes much less stressful; checking that the build passes before merging feature branch to main greatly reduces the risk of human error. Linters for CircleCI could be implemented but I have decided it's outside of the scope of this project.
 
