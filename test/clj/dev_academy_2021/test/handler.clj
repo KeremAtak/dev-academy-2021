@@ -6,7 +6,6 @@
             [muuntaja.core :as m]
             [ring.mock.request :refer :all]))
 
-
 (use-fixtures
   :once
   (fn [f]
